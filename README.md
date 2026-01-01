@@ -1,5 +1,3 @@
-# Term-Deposit-Subscription-Prediction
-
 #  Term Deposit Subscription Prediction
 
 ##  Internship Task – Machine Learning Project
@@ -26,27 +24,27 @@ This is a **binary classification problem** with a **highly imbalanced dataset**
 
 ---
 
-## 🛠️ Project Workflow
+##  Project Workflow
 
-### 1️⃣ Data Loading & Exploration
+###  Data Loading & Exploration
 
 * Loaded dataset using Pandas
 * Checked data types, missing values, and summary statistics
 * Identified class imbalance in the target variable
 
-### 2️⃣ Data Preprocessing
+###  Data Preprocessing
 
 * Separated features (`X`) and target (`y`)
 * Encoded categorical variables using **OneHotEncoder**
 * Scaled numerical features using **StandardScaler**
 * Used **ColumnTransformer + Pipeline** for clean preprocessing
 
-### 3️⃣ Train–Test Split
+###  Train–Test Split
 
 * 80% training, 20% testing
 * Used **stratified sampling** to preserve class distribution
 
-### 4️⃣ Model Training
+###  Model Training
 
 * Trained a **Random Forest Classifier** with:
 
@@ -58,29 +56,29 @@ This helped handle the imbalanced dataset effectively.
 
 ---
 
-## 📈 Model Evaluation
+##  Model Evaluation
 
-### 🔹 Confusion Matrix
+###  Confusion Matrix
 
 * Visualized using a heatmap
 * Showed strong detection of minority class (subscribers)
 
-### 🔹 Classification Report
+###  Classification Report
 
 * **Accuracy:** 86%
 * **Recall (Yes class):** 80%
 * **F1-score (Yes class):** 57%
 
-📌 High recall is crucial for marketing use cases to avoid missing potential subscribers.
+ High recall is crucial for marketing use cases to avoid missing potential subscribers.
 
-### 🔹 ROC–AUC Curve
+###  ROC–AUC Curve
 
 * Demonstrated good class separation
 * Suitable metric for imbalanced datasets
 
 ---
 
-## 🔍 Model Explainability (LIME)
+##  Model Explainability (LIME)
 
 * Used **LIME (Local Interpretable Model-Agnostic Explanations)**
 * Explained individual predictions from the Random Forest model
@@ -96,18 +94,16 @@ This improves **model transparency and trust**.
 
 ---
 
-## ✅ Final Conclusion
+##  Conclusion
 
 * The **balanced Random Forest model** performed well on an imbalanced dataset
 * Successfully identified customers likely to subscribe
 * High recall makes it suitable for real-world bank marketing campaigns
 * LIME explanations confirmed logical, business-aligned decisions
 
-🎯 This solution is **simple, effective, and internship-ready**.
-
 ---
 
-## 🧰 Technologies Used
+##  Technologies Used
 
 * Python
 * Pandas, NumPy
@@ -115,13 +111,4 @@ This improves **model transparency and trust**.
 * Matplotlib, Seaborn
 * LIME
 
----
 
-## 📌 Author
-
-**Intisaba**
-Machine Learning Intern
-
----
-
-⭐ *If you find this project useful, feel free to star the repository!*
